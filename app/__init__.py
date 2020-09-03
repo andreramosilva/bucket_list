@@ -10,9 +10,6 @@ from instance.config import app_config
 db = SQLAlchemy()
 
 
-
-# existing import remains
-
 from flask import request, jsonify, abort
 
 def create_app(config_name):
